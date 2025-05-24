@@ -1,0 +1,65 @@
+body {
+  font-family: roboto;
+  margin-top:0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+
+button {
+  background-color: rgb(56, 135, 232);
+  color: white;
+  font-size: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
+input {
+  border-radius: 15px;
+  font-size: 30px;
+  transition: box-shadow 0.15s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+select {
+  background-color: rgb(190, 201, 213);
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  transform: scale(2);
+  transition: box-shadow 0.15s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+input:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+select:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+input[type="checkbox"] {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
