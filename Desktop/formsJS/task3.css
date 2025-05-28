@@ -1,0 +1,41 @@
+body {
+  font-family: roboto;
+}
+
+input {
+  font-size: 18px;
+  border-radius: 8px;
+  transition: box-shadow 0.15s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+textarea {
+  font-size: 18px;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  transform: scale(1);
+}
+
+button {
+  font-size: 18px;
+  border-radius: 8px;
+  transition: opacity 0.15s;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input[type="radio"]{
+  transform: scale(1.5);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+button:hover{
+  opacity: 0.5;
+}
