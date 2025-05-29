@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="ultimate.css">
+</head>
+<form id="registrationForm" onsubmit="registerUser(event)">
+  <label for="fullname">What is your full name?</label>
+  <input type="text" id="fullname" name="fullname" required>
+  <br>
+  <label for="email">What is your email?</label>
+  <input type="email" id="email" name="email" required>
+  <br>
+  <label for="age">How old are you?</label>
+  <input type="number" id="age" name="age" required>
+  <br>
+  <label for="rating">How would you rate the event?</label>
+  <select id="rating" name="rating" required>
+    <option value="none"></option>
+    <option value="Excellent">Excellent</option>
+    <option value="Good">Good</option>
+    <option value="Average">Average</option>
+    <option value="Poor">Poor</option>
+  </select>
+  <br>
+  <p>What topics interested you?</p>
+
+  <input type="checkbox" id="Technology" name="Technology" value="Technology">
+  <label for="Technology">Technology</label>
+  <input type="checkbox" id="Design" name="Design" value="Design">
+  <label for="Design">Design</label>
+  <input type="checkbox" id="Business" name="Business" value="Business">
+  <label for="Business">Business</label>
+  <input type="checkbox" id="Other" name="Other" value="Other">
+  <label for="Other">Other</label>
+  <br>
+  <label for="comments">Additional comments</label>
+  <br>
+  <textarea id="comments" name="comments"></textarea>
+  <br>
+  <p>Would you like to subscribe to our newsletter?</p>
+  <label for="subYes">Yes</label>
+  <input type="radio" name="sub" id="subYes" value="subYes">
+  <br>
+  <label for="subNo">No</label>
+  <input type="radio" name="sub" id="subNo" value="subNo">
+  <br>
+  <button id="submit" name="submit">Submit</button>
+</form>
+<p id="validationMessage"></p>
+<script src="Ultimate.js"></script>
+<body>
+  
+</body>
+</html>
